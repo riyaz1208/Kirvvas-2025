@@ -22,11 +22,7 @@ function updateCountdown() {
     document.getElementById("seconds").innerText = seconds
       .toString()
       .padStart(2, "0");
-  } else {
-    document.querySelector(".countdown-container h2").innerText =
-      "EVENT STARTED!";
-    document.querySelector(".countdown").style.display = "none";
-  }
+  } 
 }
 
 // Update countdown every second
